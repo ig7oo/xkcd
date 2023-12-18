@@ -1,0 +1,86 @@
+body, h1, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#mainComic {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 { 
+    color: #ffffff; 
+    margin-bottom: 10px; 
+    -webkit-text-stroke: 1px black; 
+    -webkit-text-stroke-color: black;}
+
+p {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    color: #888;
+    font-style: italic;
+}
+
+#navComic {
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+#catImage {
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    margin: 10px;
+    max-width: 100px; 
+}
