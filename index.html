@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XKCD</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/fetchComic.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>XKCD</h1>
+    </header>
+    <main>
+        <div id="mainComic"></div>
+        <div id="navComic">
+            <ul>
+                <li id="forsta" onclick="navigate('first')">Första</li>
+                <li id="forra" onclick="navigate('prev')">Förra</li>
+                <li id="slumpa" onclick="navigate('random')">Slumpa</li>
+                <li id="nasta" onclick="navigate('next')">Nästa</li>
+                <li id="sista" onclick="navigate('latest')">Sista</li>
+            </ul>
+        </div>
+        <img id="catImage" src="cat.jpg" alt="Cat Image">
+    </main>
+    <footer>
+        <p>Skapad av David</p>
+        <p>Materialet kommer från <a href="https://xkcd.com/" target="_blank">XKCD</a></p>
+    </footer>
+    <script src="mew.js"></script>
+</body>
+</html>
